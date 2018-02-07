@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.android.museumday.MainActivity">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:scaleType="centerCrop"
+            android:src="@drawable/temple" />
+
+        <TextView
+            android:id="@+id/text1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_margin="10sp"
+            android:background="#DDDDDD"
+            android:fontFamily="sans-serif"
+            android:padding="5dp"
+            android:text="Happy international"
+            android:textColor="#26455f"
+            android:textSize="35sp"
+            android:textStyle="bold" />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/text1"
+            android:layout_centerHorizontal="true"
+            android:background="#DDDDDD"
+            android:fontFamily="sans-serif"
+            android:padding="5dp"
+            android:text="museum day!"
+            android:textColor="#26455f"
+            android:textSize="37sp"
+            android:textStyle="bold" />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:fontFamily="sans-serif"
+            android:text=" 18 May 2018"
+            android:textColor="#660000"
+            android:textSize="57sp"
+            android:textStyle="bold|italic" />
+
+
+    </RelativeLayout>
+
+</android.support.constraint.ConstraintLayout>
